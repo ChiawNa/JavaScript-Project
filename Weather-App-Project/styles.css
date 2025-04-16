@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, #44b6cd 10%, #7b43b3 80%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.top-search-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-bar {
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #333;
+    background-color: #e6f9f8;
+}
+
+.search-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.middle-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.weather-icon {
+    font-size: 7rem;
+    margin: 20px 0;
+}
+
+.temperature {
+    font-size: 3rem;
+    margin: 5px 0;
+}
+
+.name-location {
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.humidity, .wind-speed {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100%; 
+    line-height: 1.1;
+}
+
+.weather-value {
+    font-size: 1.1rem;
+}
+
+.weather-label {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.humidity-icon, .wind-icon{
+    font-size: 1.2rem;
+    margin-top: 0.15rem;
+}
+
+
+@media (min-width: 768px) {
+    .humidity-icon, .wind-icon {
+        font-size: 1.5rem;
+        margin-top: 0.2rem;
+    }
+    
+    .weather-value {
+        font-size: 1.3rem;
+    }
+    
+    .weather-label {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .humidity, .wind-speed {
+        gap: 15px;
+    }
+    
+    .humidity-icon, .wind-icon {
+        font-size: 1.8rem;
+        margin-top: 0.25rem;
+    }
+    
+    .weather-value {
+        font-size: 1.5rem;
+    }
+    
+    .weather-label {
+        font-size: 1rem;
+    }
+}
+

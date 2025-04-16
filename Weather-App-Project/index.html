@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Weather App Project</title>
+    </head>
+    <body>
+        <main>
+            <div class="top-search-container">
+                <input class="search-bar" id="search-bar" type="text" value="" placeholder="Search" />
+                <button class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="middle-container">
+                <div class="weather-icon" id="weather-icon">
+                    <i id="icon"></i> 
+                </div>
+                <div class="temperature" id="temperature"></div> 
+                <div class="name-location" id="name-location"></div>
+            </div>
+            <div class="bottom-container">
+                <div class="humidity" id="humidity">
+                    <i class="fas fa-tint humidity-icon"></i>
+                    <div class="weather-info">
+                        <span class="weather-value"></span>
+                        <span class="weather-label">Humidity</span>
+                    </div>
+                </div>
+                <div class="wind-speed" id="wind-speed">
+                    <i class="fas fa-wind wind-icon"></i>
+                    <div class="weather-info">
+                        <span class="weather-value"></span>
+                        <span class="weather-label">Wind speed</span>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
