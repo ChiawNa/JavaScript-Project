@@ -119,6 +119,9 @@ main {
     margin-top: 0.15rem;
 }
 
+.hidden {
+    display: none;
+}  
 
 @media (min-width: 768px) {
     .humidity-icon, .wind-icon {

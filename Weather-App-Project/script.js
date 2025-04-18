@@ -33,6 +33,9 @@ const getLocation = async () => {
         humidityValue.textContent = `${data.main.humidity}%`;
         windValue.textContent = `${speed} km/h`;
 
+        document.getElementById("humidity").classList.remove("hidden");
+        document.getElementById("wind-speed").classList.remove("hidden");
+
         setWeatherIcon(data.weather[0].main, data.weather[0].description);
 
     } catch (err) {
