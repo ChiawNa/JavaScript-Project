@@ -12,6 +12,10 @@ A simple and responsive weather application that allows users to search for a ci
 
 ## 📷 Preview
 
+<img src="https://github.com/user-attachments/assets/3d1dc7a7-8f28-4a30-8a0d-217b23ffa957" alt="Weather App Demo" width="600"/>
+
+## 🖼️ Example
+
 <img src="https://github.com/user-attachments/assets/633ac4a3-7a72-4095-b1e2-f43f795c5f98" alt="Weather App Screenshot" width="600"/>
 
 ## 🛠️ Technologies Used
