@@ -20,5 +20,8 @@ This calculator allows users to input mathematical expressions directly and show
 - JavaScript (vanilla)
 
 ## 📷 Preview
+<img src="https://github.com/user-attachments/assets/cd3e27fd-c69a-488d-bf78-03df667a9b95" alt="Calculator App Demo" width="800"/>
 
+
+## 🖼️Example
 <img src="https://github.com/user-attachments/assets/deec7685-a6d6-440e-b084-48ea8359ed70" alt="Weather App Screenshot" width="500"/>
